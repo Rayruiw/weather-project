@@ -8,10 +8,10 @@ Here is the overall picture
 
 
 # How to use
-  + **Installations and configurations**
-  Server-side:
-     first you need to open virtual environment 
-      .\venv\Scripts\activate   
+  + **Installations and configurations**  
+  Server-side:  
+     first you need to open virtual environment   
+      .\venv\Scripts\activate     
       pip install flask  
       pip install flask-cors          
       pip install requests   
