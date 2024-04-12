@@ -3,7 +3,7 @@ This project uses the front and back end separation technique. The front end mai
 It shows temperature, weather, wind speed, humidity, sunrise and sunset times, and real-time temperature changes.
 
 Here is the overall picture
-<img src="src/assets/readmepicture/1.jpg">
+<img src="weather-project/weather-client-copy/src/assets/readmepicture/1.jpg">
 
 # How to use
   + **Installations and configurations**
