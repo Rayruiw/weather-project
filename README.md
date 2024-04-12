@@ -17,9 +17,9 @@ Here is the overall picture
       pip install requests   
       flask run  
   Client-side:     
-     npm install
-     npm install chart.js –save
-     npm run serve
+     npm install  
+     npm install chart.js –save  
+     npm run serve  
  + **descriptions**
  When you enter the site, the screen can automatically display the weather conditions for your location as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box. And you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
 + **use1**
