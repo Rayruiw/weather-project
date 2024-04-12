@@ -11,11 +11,11 @@ Here is the overall picture
   + **Installations and configurations**
   Server-side:
      first you need to open virtual environment 
-      .\venv\Scripts\activate 
-      pip install flask
-      pip install flask-cors       
-      pip install requests 
-      flask run
+      .\venv\Scripts\activate   
+      pip install flask  
+      pip install flask-cors          
+      pip install requests   
+      flask run  
   Client-side:     
      npm install
      npm install chart.js –save
