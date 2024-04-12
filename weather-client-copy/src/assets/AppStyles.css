@@ -1,0 +1,47 @@
+.search-col {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.btn-col {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 8px;
+}
+
+.mt-0 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.my-custom-button {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  background-color: transparent;
+}
+
+.my-custom-icon {
+  font-size: 16px;
+}
+
+.graph-title {
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+#myChart {
+  width: 100% !important;
+  max-width: 600px;
+}
