@@ -1,6 +1,6 @@
 # Purpose
-This project is to create a simple weather app. It shows temperature, weather, wind speed, humidity, sunrise and sunset times, and real-time temperature changes.
-e
+This project is to create a simple weather app. It shows temperature, weather, wind speed, humidity, sunrise and sunset times,map and real-time temperature changes.
+
 Here is the overall picture
 <img src="./weather-client-copy/src/assets/readmepicture/1.jpeg">  
 
@@ -17,8 +17,8 @@ Here is the overall picture
       flask run  
   Client-side:     
      npm install  
-     npm install chart.js –save
-     npm i @amap/amap-jsapi-loader --save  
+     npm install chart.js –save  
+     npm i @amap/amap-jsapi-loader --save    
      npm run serve    
  + **descriptions**
  When you enter the site, the screen can automatically display the weather conditions for your location as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box. And you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
@@ -54,7 +54,7 @@ Depending on the day of the city in the morning and night, different weather bac
    Weather Sunrise and Sunset:This include an SVG icon of a sunrise and sunset using the Material Design Icons (MDI) library.
 
    Time background switch: This is done by getting the current timestamp and comparing it with sunset and sunrise times, thus changing the background picture.
-n
+
 # reference youtube:
 
   
