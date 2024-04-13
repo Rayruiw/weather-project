@@ -34,7 +34,7 @@ Here is the overall picture
     <img src="./weather-client-copy/src/assets/readmepicture/4.jpg">  
 + **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
-<img src="./weather-client-copy/src/assets/readmepicture/5.jpeg">
+<img src="./weather-client-copy/src/assets/readmepicture/5.png">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
   
 # implement:
