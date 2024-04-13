@@ -1,8 +1,8 @@
 # Purpose
 This project is to create a simple weather app. It shows temperature, weather, wind speed, humidity, sunrise and sunset times, and real-time temperature changes.
-
+e
 Here is the overall picture
-<img src="./weather-client-copy/src/assets/readmepicture/1.jpg">  
+<img src="./weather-client-copy/src/assets/readmepicture/1.jpeg">  
 
 
 
@@ -34,7 +34,7 @@ Here is the overall picture
     <img src="./weather-client-copy/src/assets/readmepicture/4.jpg">  
 + **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
-<img src="./weather-client-copy/src/assets/readmepicture/5.jpg">
+<img src="./weather-client-copy/src/assets/readmepicture/5.jpeg">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
   
 # implement:
