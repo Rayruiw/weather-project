@@ -53,7 +53,7 @@ Depending on the day of the city in the morning and night, different weather bac
    Weather Sunrise and Sunset:This include an SVG icon of a sunrise and sunset using the Material Design Icons (MDI) library.
 
    Time background switch: This is done by getting the current timestamp and comparing it with sunset and sunrise times, thus changing the background picture.
-
-# refernece youtube:
+n
+# reference youtube:
 
   
