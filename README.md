@@ -1,6 +1,5 @@
-# Project description
-This project uses the front and back end separation technique. The front end mainly uses the vue framework and the back end uses flask technology. 
-It shows temperature, weather, wind speed, humidity, sunrise and sunset times, and real-time temperature changes.
+# Purpose
+This project is to create a simple weather app. It shows temperature, weather, wind speed, humidity, sunrise and sunset times, and real-time temperature changes.
 
 Here is the overall picture
 <img src="./weather-client-copy/src/assets/readmepicture/1.jpg">  
@@ -54,5 +53,7 @@ Depending on the day of the city in the morning and night, different weather bac
    Weather Sunrise and Sunset:This include an SVG icon of a sunrise and sunset using the Material Design Icons (MDI) library.
 
    Time background switch: This is done by getting the current timestamp and comparing it with sunset and sunrise times, thus changing the background picture.
-    
+
+# refernece youtube:
+
   
