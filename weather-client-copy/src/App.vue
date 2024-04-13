@@ -15,6 +15,7 @@
           </v-btn>
         </v-col>
       </v-row>
+      
       <v-row v-if="weather">
         <v-col cols="12" sm="6" offset-sm="3">
           <v-card class="pa-3" :style="{ backgroundImage: 'url(' + currentBackgroundImage + ')', backgroundSize: 'cover' }">
@@ -29,8 +30,7 @@
                   fab 
                   icon 
                   @click="toggleTemperatureUnit" 
-                  class="my-custom-button"
-                >
+                  class="my-custom-button">
                   <v-icon small class="my-custom-icon">
                     {{ temperatureUnit === 'C' ? 'mdi-temperature-celsius' : 'mdi-temperature-fahrenheit' }}
                   </v-icon>
@@ -69,6 +69,11 @@
           </v-expansion-panels> 
         </v-col>
       </v-row>
+      <v-row><!--这是新加入的地图-->
+        <v-col cols="12" sm="6" offset-sm="3">
+          <div id="container"> <MapContainer> </MapContainer></div>
+        </v-col>
+        </v-row>
       <v-row v-if="error">
         <v-col cols="12" sm="6" offset-sm="3">
           <v-alert type="error" dismissible>{{ error }}</v-alert>
@@ -94,6 +99,8 @@ import nightImage from './assets/backgrounds/night-bg.png';
 
 import { Chart, registerables } from 'chart.js';
 Chart.register(...registerables);
+
+import AMapLoader from '@amap/amap-jsapi-loader';
 
 export default {
   name: 'App',
@@ -127,6 +134,10 @@ export default {
   },
   mounted() {
     this.getLocation(); 
+    this.initAMap();
+  },
+  unmounted() {
+    this.map?.destroy();
   },
   watch: {
     panel(newVal) {
@@ -143,6 +154,7 @@ export default {
     }
   },
   methods: {
+
     getLocation() {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(this.showPosition, this.showError); }
@@ -236,7 +248,7 @@ export default {
       this.temperatureUnit = this.temperatureUnit === 'C' ? 'F' : 'C';
     },
   },
-}
+  }
 */
 </script>
 

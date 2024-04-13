@@ -2,7 +2,6 @@ import axios from 'axios';
 import { mdiWeatherSunsetUp, mdiWeatherSunsetDown } from '@mdi/js';
 
 import dayImage from '../assets/backgrounds/day-bg.png';
-//import nightImage from '../assets/backgrounds/night-bg.png';
 import nightImage from '../assets/backgrounds/night.jpg';
 
 import { Chart, registerables } from 'chart.js';
@@ -10,10 +9,13 @@ Chart.register(...registerables);
 
 import SvgWeatherIcon from '../components/SvgWeatherIcon.vue';
 
+import MapContainer from '../components/MapContainer.vue';
+
 export default {
   name: 'App',
   components: {
     SvgWeatherIcon,
+    MapContainer
   },
   data: () => ({
     cityName: '',
@@ -43,6 +45,7 @@ export default {
   },
   mounted() {
     this.getLocation();
+
   },
 
   watch: {
@@ -183,3 +186,4 @@ export default {
     },
   },
 }
+
