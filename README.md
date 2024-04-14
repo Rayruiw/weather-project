@@ -1,4 +1,4 @@
-# Purpose
+# Overall
 This project is to create a simple weather app. It shows temperature, weather, wind speed, humidity, sunrise and sunset times,map and real-time temperature changes.
 
 Here is the overall picture
@@ -38,23 +38,29 @@ Depending on the day of the city in the morning and night, different weather bac
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
   
-# implement:
-    API: The back end gets the data from the openweathermap API.
+# Declaration:
+ + **package**:
+ + **Environment**:
+   vue.js  
+   flask  
+ 
+    
 
-    Fetch Weather:  In js , fetchWeather( ) is mainly used to get data from the back end.
+# Purpose
++ **Type of Software Development Process**
++ **Reason**
++ **Usage of software**
+# Software Development plan
++ **Development Process**
++ **Member**
++ **Schedule**
++ **Algorithm**
++ **Current status of software**
++ **Future plan**
+  
+# Reference youtube:
++ **URL**
 
-    Locate function: The mounted hook is called after the component is mounted. It calls the getLocation method to fetch the weather information for the default city :Your current location.
 
-    Real-time temperature chart: This make use of the chart.js technology. And Logic is used to hide and display the chart.
-
-   search bar: The city name is passed into the backend to perform a series of queries on weather conditions. However, if you enter an invalid city name, the screen will show that your query is incorrect.
-
-   Temperature switching: formattedTemperature converts the temperature to the desired unit (Celsius or Fahrenheit)
-
-   Weather Sunrise and Sunset:This include an SVG icon of a sunrise and sunset using the Material Design Icons (MDI) library.
-
-   Time background switch: This is done by getting the current timestamp and comparing it with sunset and sunrise times, thus changing the background picture.
-
-# reference youtube:
 
   
