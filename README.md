@@ -38,7 +38,7 @@ Depending on the day of the city in the morning and night, different weather bac
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
 + **use5**
-   You can also click the "check suitability" button to view outing tips, which will show whether today is suitable for traveling, jogging, etc.
+You can also click the "check suitability" button to view outing tips, which will show whether today is suitable for traveling, jogging, etc.
 
 
 # Declaration:
