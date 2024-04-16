@@ -26,8 +26,8 @@ Here is the overall picture
   Enter the city name in the search bar and click the check weather button  <img src="./weather-client-copy/src/assets/readmepicture/2.jpg">  
   
 + **use2**
-  Switch to other units for temperature
-  <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">  
+  Switch to other units for temperature  
+  <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">    
   
 + **use3**
   Click on the red circle location to show real-time temperature changes.
@@ -36,10 +36,12 @@ Here is the overall picture
 + **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
-<img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
-+ **use5**
-You can also click the "check suitability" button to view outing tips, which will show whether today is suitable for traveling, jogging, etc.
+<img src="./weather-client-copy/src/assets/readmepicture/6.jpg"> 
 
++ **use5**
+You can also click the "check suitability" button to view outing tips, which will spnghow whether today is suitable for traveling, jogging, etc.
+<img src="./weather-client-copy/src/assets/readmepicture/7.png">
+<img src="./weather-client-copy/src/assets/readmepicture/8.png"> 
 
 # Declaration:
  + **package**:
