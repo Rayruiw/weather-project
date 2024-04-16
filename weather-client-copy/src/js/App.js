@@ -34,7 +34,6 @@ export default {
     panel: null,
     panelTitle: 'Details',
     chartInstance: null,
-    //以下适用于出行情况
     tips: '',
     showSuitability: false,
     travelingSuitability: '',
@@ -204,7 +203,7 @@ export default {
       }
       else this.tips = 'Have a nice day!'
       // Example code to check if it's suitable for traveling based on weather condition
-      if (this.weather.condition === 'Sunny' || this.weather.condition === 'Cloud') {
+      if (this.weather.condition === 'Sunny' || this.weather.condition === 'Clouds') {
         this.travelingSuitability = 'Weather is suitable for traveling.';
       } else {
         this.travelingSuitability = 'Weather is not suitable for traveling.';
