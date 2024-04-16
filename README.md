@@ -26,7 +26,7 @@ Here is the overall picture
   Enter the city name in the search bar and click the check weather button  <img src="./weather-client-copy/src/assets/readmepicture/2.jpg">  
   
 + **use2**
-  Switch to other units for temperature
+  Switch to other units for temperature  
   <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">    
   
 + **use3**
