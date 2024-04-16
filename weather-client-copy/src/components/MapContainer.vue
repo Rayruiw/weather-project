@@ -7,13 +7,15 @@ let map = null;
 onMounted(() => {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
-      const longitude = position.coords.longitude; // 获取当前位置的经度
-      const latitude = position.coords.latitude; // 获取当前位置的纬度
-
+      const longitude = position.coords.longitude; 
+      const latitude = position.coords.latitude; 
       AMapLoader.load({
         key: "c8bbe677c3d25142e6618bd4b16a2817",
         version: "2.0",
         plugins: ["AMap.Scale"],
+        lang: "en",
+        region: "en" // 指定地图区域为英文
+
       }).then((AMap) => {
         map = new AMap.Map("container", {
           viewMode: "3D",
@@ -25,7 +27,7 @@ onMounted(() => {
       });
     });
   } else {
-    console.log("浏览器不支持地理定位功能。");
+    console.log("Not supported");
   }
 });
 
@@ -33,14 +35,3 @@ onUnmounted(() => {
   map?.destroy();
 });
 </script>
-
-<template>
-  <div id="container"></div>
-</template>
-
-<style scoped>
-#container {
-  width: 100%;
-  height: 800px;
-}
-</style>

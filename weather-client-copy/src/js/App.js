@@ -34,6 +34,12 @@ export default {
     panel: null,
     panelTitle: 'Details',
     chartInstance: null,
+    //以下适用于出行情况
+    tips: '',
+    showSuitability: false,
+    travelingSuitability: '',
+    hikingSuitability: '',
+    joggingSuitability: '',
   }),
   computed: {
     formattedTemperature() {
@@ -145,6 +151,7 @@ export default {
           this.error = null;
           const now = new Date().getTime() / 1000; // now time
           this.yValues = this.weather.yValues;
+
           if (now < this.weather.sunrise || now > this.weather.sunset) {
             this.currentBackgroundImage = this.nightBackgroundImage; // night
             this.textColor = 'white';
@@ -184,6 +191,40 @@ export default {
     toggleTemperatureUnit() {
       this.temperatureUnit = this.temperatureUnit === 'C' ? 'F' : 'C';
     },
+    checkSuitability() {
+      this.showSuitability = true;
+      if (this.weather.condition === 'Sunny') {
+        this.tips = 'Pay attention to sun protection'
+      }
+      else if (this.weather.condition === 'Rain') {
+        this.tips = 'Remember to bring an umbrella'
+      }
+      else if (this.weather.condition === 'Snow') {
+        this.tips = 'Be careful when going out'
+      }
+      else this.tips = 'Have a nice day!'
+      // Example code to check if it's suitable for traveling based on weather condition
+      if (this.weather.condition === 'Sunny' || this.weather.condition === 'Cloud') {
+        this.travelingSuitability = 'Weather is suitable for traveling.';
+      } else {
+        this.travelingSuitability = 'Weather is not suitable for traveling.';
+      }
+
+      // Example code to check if it's suitable for hiking based on temperature range
+      if (this.weather.temperature >= 10 && this.weather.temperature <= 25) {
+        this.hikingSuitability = 'Weather is suitable for hiking.';
+      } else {
+        this.hikingSuitability = 'Weather is not suitable for hiking.';
+      }
+
+      // Example code to check if it's suitable for josgging based on weather condition and temperature
+      if (this.weather.condition === 'Clouds' && this.weather.temperature >= 15) {
+        this.joggingSuitability = 'Weather is suitable for jogging.';
+      } else {
+        this.joggingSuitability = 'Weather is not suitable for jogging.';
+      }
+    },
+
   },
 }
 

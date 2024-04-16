@@ -40,6 +40,8 @@ def get_weather():
     result=[data,data1]
     print(result)
     weather_data = {
+        #新加入的condition
+        "condition": data['weather'][0]['main'],
         "city": data['name'],
         "temperature": data['main']['temp'],
         "description": data['weather'][0]['description'],
