@@ -36,10 +36,12 @@ Here is the overall picture
 + **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
-<img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
+<img src="./weather-client-copy/src/assets/readmepicture/6.jpg"> 
+
 + **use5**
 You can also click the "check suitability" button to view outing tips, which will show whether today is suitable for traveling, jogging, etc.
-
+<img src="./weather-client-copy/src/assets/readmepicture/7.png">
+<img src="./weather-client-copy/src/assets/readmepicture/8.jpg"> 
 
 # Declaration:
  + **package**:
