@@ -27,7 +27,7 @@ Here is the overall picture
   
 + **use2**
   Switch to other units for temperature
-  <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">  
+  <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">    
   
 + **use3**
   Click on the red circle location to show real-time temperature changes.
