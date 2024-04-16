@@ -6,7 +6,7 @@ Here is the overall picture
 
 
 
-# How to use
+# Usage of software
   + **Installations and configurations**  
   Server-side:  
      first you need to open virtual environment   
@@ -21,7 +21,7 @@ Here is the overall picture
      npm i @amap/amap-jsapi-loader --save    
      npm run serve    
  + **descriptions**
- When you enter the site, the screen can automatically display the weather conditions for your location as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box. And you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
+ When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view outing advice, you can also click the "check suitability" button. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
 + **use1**
   Enter the city name in the search bar and click the check weather button  <img src="./weather-client-copy/src/assets/readmepicture/2.jpg">  
   
@@ -37,7 +37,10 @@ Here is the overall picture
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg">
-  
++ **use5**
+   You can also click the "check suitability" button to view outing tips, which will show whether today is suitable for traveling, jogging, etc.
+
+
 # Declaration:
  + **package**:
  + **Environment**:
@@ -48,8 +51,11 @@ Depending on the day of the city in the morning and night, different weather bac
 
 # Purpose
 + **Type of Software Development Process**
+  Agile software 
 + **Reason**
-+ **Usage of software**
+   
+
+  
 # Software Development plan
 + **Development Process**
 + **Member**
