@@ -9,17 +9,21 @@ Here is the overall picture
 # Usage of software
   + **Installations and configurations**  
   Server-side:  
-     first you need to open virtual environment   
+     first you need to open virtual environment
+    ``` 
       .\venv\Scripts\activate     
       pip install flask  
       pip install flask-cors          
       pip install requests   
-      flask run  
-  Client-side:     
+      flask run
+    ```
+  Client-side: 
+  ```
      npm install  
      npm install chart.js –save  
      npm i @amap/amap-jsapi-loader --save    
-     npm run serve    
+     npm run serve
+   ```  
  + **descriptions**
  When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view outing advice, you can also click the "check suitability" button. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
 + **use1**
