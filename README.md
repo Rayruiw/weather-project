@@ -10,8 +10,7 @@ Here is the overall picture
   + **Installations and configurations**  
   Server-side:  
      first you need to open virtual environment
-    ``` 
-      .\venv\Scripts\activate     
+    ```      
       pip install flask  
       pip install flask-cors          
       pip install requests   
@@ -36,7 +35,8 @@ Here is the overall picture
 + **use3**
   Click on the red circle location to show real-time temperature changes.
     If you don't want it, click again to close it.
-    <img src="./weather-client-copy/src/assets/readmepicture/4.jpg">  
+    <img src="./weather-client-copy/src/assets/readmepicture/4.jpg">
+  
 + **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
@@ -56,8 +56,8 @@ You can also click the "check suitability" button to view outing tips, which wil
     
 
 # Purpose
-+ **Type of Software Development Process**
-  Agile software 
++ **Type of Software Development Process**  
+      Agile software 
 + **Reason**
    
 
