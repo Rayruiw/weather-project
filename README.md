@@ -74,7 +74,7 @@ You can also click the "check suitability" button to view outing tips, which wil
 + **Member**
 + **Schedule**
 + **Algorithm**
-+ **Current status of software**
+  
 + **Future plan**
  
  Here are some ideas for the future plan of software 
