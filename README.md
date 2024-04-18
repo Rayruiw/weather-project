@@ -11,7 +11,7 @@ Here is the overall picture
  + **Environment**:
    vue.js  
    flask  
- + **usage of software**:
+ + **usage of software**: This software aids in showcasing timely and accurate weather condition of a certain region / city accroding to the user's prompt. All the weather information are based on real time data such as temperature, humidity, visibility, etc. It also provides tips like the suitability of certain outdoor activities.
     
 
 # Purpose
@@ -58,6 +58,11 @@ Here is the overall picture
      Post-Launch Support     : 2024-06-24, 365d
 ```
  ### Member 
+     Ray (P2111671)
+     Angela (P2204782)
+     Vikey (P2211317)
+     Josh (P2204750)
+     William (P2204954)
  ### Schedule
  ### Algorithm
  ### Current Status   
