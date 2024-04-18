@@ -59,7 +59,8 @@ You can also click the "check suitability" button to view outing tips, which wil
 + **Type of Software Development Process**  
       Agile software 
 + **Reason**
- Agile methodologies offer several benefits that align well with the requirements and challenges of developing a weather forecast software.
+
+Agile methodologies offer several benefits that align well with the requirements and challenges of developing a weather forecast software.
   
 1. Flexibility and Adaptability: Agile methodologies emphasize flexibility and adaptability. In weather forecasting, new data and information constantly emerge, making it essential to respond quickly to changes. Agile allows for iterative development and frequent feedback loops, enabling the software to adapt and incorporate new data sources or models as they become available.
 2. Incremental Development: Agile promotes incremental development, where software features are developed in short iterations. This approach allows for early delivery of working software and enables the weather forecast software to evolve gradually. It allows meteorologists and forecasters to start using and benefiting from the software sooner, even if it is not yet fully complete.
