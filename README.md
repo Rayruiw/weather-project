@@ -29,20 +29,22 @@ Here is the overall picture
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
   
 # Software Development plan
-+ **Development Process**
-+ **Member**
-+ **Schedule**
-+ **Algorithm**
-+ **Current Status**
-   ##Installations and configurations##
+ ### Development Process
+ ### Member 
+ ### Schedule
+ ### Algorithm
+ ### Current Status   
+
+ 
++**Installations and configurations**
   Server-side:  
-     first you need to open virtual environment
-    ```      
+     first you need to open virtual environment  
+          
       pip install flask  
-      pip install flask-cors          
-      pip install requests   
-      flask run
-    ```
+      pip install flask-cors        
+      pip install requests  
+      flask run  
+    
   Client-side: 
   ```
      npm install  
@@ -50,31 +52,31 @@ Here is the overall picture
      npm i @amap/amap-jsapi-loader --save    
      npm run serve
    ```  
-   ##descriptions##
++ **descriptions**
  When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view outing advice, you can also click the "check suitability" button. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the day and night of the location. Finally, there is a temperature trend graph showing real-time temperature changes, you can click on the detail row to show the diagram.
- # use1##
++ **use1**
   Enter the city name in the search bar and click the check weather button  <img src="./weather-client-copy/src/assets/readmepicture/2.jpg">  
   
-  # use2##
++ **use2**
   Switch to other units for temperature  
   <img src="./weather-client-copy/src/assets/readmepicture/3.jpg">    
   
-  # use3##
++ **use3**
   Click on the red circle location to show real-time temperature changes.
     If you don't want it, click again to close it.
     <img src="./weather-client-copy/src/assets/readmepicture/4.jpg">
   
-  # use4##
++ **use4**
 Depending on the day of the city in the morning and night, different weather background pictures are displayed:
 <img src="./weather-client-copy/src/assets/readmepicture/5.png">
 <img src="./weather-client-copy/src/assets/readmepicture/6.jpg"> 
 
-# use5##
++ **use5**
 You can also click the "check suitability" button to view outing tips, which will spnghow whether today is suitable for traveling, jogging, etc.
 <img src="./weather-client-copy/src/assets/readmepicture/7.png">
 <img src="./weather-client-copy/src/assets/readmepicture/8.png"> 
-+ **Future plan**
- 
+
+### Future plan
  Here are some ideas for the future plan of software 
 1. User Personalization Settings: In addition to the default display of weather units and interface themes, the personalization settings can be further expanded. For example, allowing users to select the weather metrics they want to focus on, such as precipitation, wind speed, humidity, etc., and highlighting them in the forecast results. Furthermore, implementing the ability to save and remove favorite cities means that users can add their most loved or frequently monitored cities to a favorites list for quick access to the weather forecasts of those cities. Users can add cities to their favorites by clicking on a 'Favorite' button on the search results or specific city's weather page.
 2. Adding Distance and Transportation Mode Feature: Enhance the practicality of the software by utilizing the location information and user's search data. Display the distance between two locations in the weather forecast results and provide options for different transportation modes such as walking, driving, and public transportation.
@@ -83,7 +85,7 @@ You can also click the "check suitability" button to view outing tips, which wil
 5. Multi-language Support: In addition to adding multi-language support, further provide localized weather information and cultural features. Based on the user's location or selected language, offer weather data, weather phenomenon descriptions, traditional customs, and other information relevant to the local area. This will increase the user's sense of familiarity and convenience with the weather forecast, providing a more personalized service experience.
 6. Weather Alerts and Push Notifications: Allow users to set weather alerts and push notifications to receive alerts or reminders for specific weather conditions. For example, when weather conditions are not suitable for outdoor activities or when there are extreme weather warnings, users can receive instant notifications to take appropriate actions.
 
-+ **URL**
+# URL
 
 
 
