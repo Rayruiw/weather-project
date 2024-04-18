@@ -77,7 +77,7 @@ You can also click the "check suitability" button to view outing tips, which wil
 + **Current status of software**
 + **Future plan**
  
- Here are some ideas for the future of software
+ Here are some ideas for the future plan of software 
 1. User Personalization Settings: In addition to the default display of weather units and interface themes, the personalization settings can be further expanded. For example, allowing users to select the weather metrics they want to focus on, such as precipitation, wind speed, humidity, etc., and highlighting them in the forecast results. Furthermore, implementing the ability to save and remove favorite cities means that users can add their most loved or frequently monitored cities to a favorites list for quick access to the weather forecasts of those cities. Users can add cities to their favorites by clicking on a 'Favorite' button on the search results or specific city's weather page.
 2. Dynamic Background Feature: To enhance the user's visual experience and create a sense of connection with the viewed city, consider adding a dynamic background feature. When a user searches for a city, the webpage background will automatically change to relevant images of that city. This can be achieved by integrating a city image library and associating it with the search results.
 3. Adding Distance and Transportation Mode Feature: Enhance the practicality of the software by utilizing the location information and user's search data. Display the distance between two locations in the weather forecast results and provide options for different transportation modes such as walking, driving, and public transportation.
