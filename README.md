@@ -11,7 +11,7 @@ Here is the overall picture
  + **Environment**:
    vue.js  
    flask  
- 
+ + **usage of software**:
     
 
 # Purpose
