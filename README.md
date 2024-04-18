@@ -6,7 +6,7 @@ Here is the overall picture
 
 
 
-# Usage of software
+# Current status of software
   + **Installations and configurations**  
   Server-side:  
      first you need to open virtual environment
