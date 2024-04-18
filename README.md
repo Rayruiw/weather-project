@@ -36,7 +36,7 @@ Here is the overall picture
  ### Current Status   
 
  
-+**Installations and configurations**
++ **Installations and configurations**
   Server-side:  
      first you need to open virtual environment  
           
