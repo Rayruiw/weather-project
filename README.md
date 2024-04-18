@@ -29,7 +29,34 @@ Here is the overall picture
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
   
 # Software Development plan
- ### Development Process
+ ### Development Process (sample only)
+
+ ```mermaid
+ gantt
+     title Weather App Development Process
+     dateFormat  YYYY-MM-DD
+
+     section Project Initialization
+     Project Initialization   : 2024-04-01, 7d
+
+     section Research and Planning
+     Research and Planning    : 2024-04-08, 14d
+
+     section Backend Development
+     Backend Development     : 2024-04-22, 21d
+
+     section Frontend Development
+     Frontend Development    : 2024-05-13, 21d
+
+     section Integration and Testing
+     Integration and Testing : 2024-06-03, 14d
+
+     section Deployment and Launch
+     Deployment and Launch   : 2024-06-17, 7d
+
+     section Post-Launch Support (Ongoing)
+     Post-Launch Support     : 2024-06-24, 365d
+```
  ### Member 
  ### Schedule
  ### Algorithm
