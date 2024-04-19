@@ -117,7 +117,8 @@ Here is the overall picture
  - remains relatively constant regardless of factors such as the number of locations being queried or the volume of weather data being displayed.
    
  ### Algorithm   
-
+ 
+ ### Current status 
  + **descriptions**  
  When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view the advice for going out, you can also click the "Check Suitability" button. It will show what to do about the weather today and whether it is suitable to do some outdoor sports. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the sunrise and sunset of the location. Lastly, you can click the Detail row to reveal the temperature trend chart, which displays changes in temperature in real time.When you click a point on the axis, details of the temperature are displayed.
 
