@@ -9,46 +9,47 @@ Here is the overall picture
 # Declaration:
  + **package/library**:
    + **venv**:
-     Flask-Cors
-     Jinja2
-     MarkupSafe
-     Blinker
-     Certifi
-     Charset Normalizer
-     Click
-     Colorama
-     Flask
-     IDNA
-     Itsdangerous
-     pip
-     Requests
-     Urllib3
-     Werkzeug
+     Flask-Cors, 
+     Jinja2, 
+     MarkupSafe, 
+     Blinker, 
+     Certifi, 
+     Charset Normalizer, 
+     Click, 
+     Colorama, 
+     Flask, 
+     IDNA, 
+     Itsdangerous, 
+     pip, 
+     Requests, 
+     Urllib3, 
+     Werkzeug. 
 
    + **weather-server**:
-     Flask-Cors
-     Jinja2
-     MarkupSafe
-     blinker
-     Certifi
-     Charset Normalizer
-     Click
-     Colorama
-     Flask
-     Flask-Cors
-     IDNA
-     Itsdangerous
-     pip
-     Requests
-     Urllib3
-     Werkzeug
-     Setuptools
-     Pkg Resources
-     Distutils Hack
+     Flask-Cors, 
+     Jinja2, 
+     MarkupSafe, 
+     blinker, 
+     Certifi, 
+     Charset Normalizer, 
+     Click, 
+     Colorama, 
+     Flask, 
+     Flask-Cors, 
+     IDNA, 
+     Itsdangerous, 
+     pip, 
+     Requests, 
+     Urllib3, 
+     Werkzeug, 
+     Setuptools, 
+     Pkg Resources, 
+     Distutils Hack, 
      
  + **Environment**:
-   vue.js  
-   flask  
+   vue.js,   
+   flask
+     
  + **usage of software**: This software aids in showcasing timely and accurate weather condition of a certain region / city accroding to the user's prompt. All the weather information are based on real time data such as temperature, humidity, visibility, etc. It also provides tips like the suitability of certain outdoor activities.
     
 
