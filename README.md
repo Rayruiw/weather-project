@@ -110,11 +110,11 @@ Here is the overall picture
     PostLaunchSupport : active, Post-Launch Support, 2024-04-25, 365d
 ```
 ### Members
-1. Ray (P2111671)
-2. Angela (P2204782)
-3. Vikey (P2211317)
-4. Josh (P2204750)
-5. William (P2204954)
+1. Ray (P2111671) -- Backend development
+2. Angela (P2204782) -- Frontend development
+3. Vikey (P2211317) -- UI Design
+4. Josh (P2204750) -- Documentation
+5. William (P2204954) -- Documentation
       
  ### Schedule
  O(1) Constant Time Complexity
