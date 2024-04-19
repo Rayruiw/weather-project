@@ -98,12 +98,12 @@ Here is the overall picture
      section Post-Launch Support (Ongoing)
      Post-Launch Support     : 2024-06-24, 365d
 ```
- + **Members**
-   1. Ray (P2111671)
-   2. Angela (P2204782)
-   3. Vikey (P2211317)
-   4. Josh (P2204750)
-   5. William (P2204954)
+### Members
+1. Ray (P2111671)
+2. Angela (P2204782)
+3. Vikey (P2211317)
+4. Josh (P2204750)
+5. William (P2204954)
       
  ### Schedule
  ### Algorithm   
