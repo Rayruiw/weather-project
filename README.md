@@ -23,10 +23,11 @@ Here is the overall picture
      pip, 
      Requests, 
      Urllib3, 
-     Werkzeug. 
-
-+ **weather-client-copy**:
-  Vue.js, Chart.js
+     Werkzeug.
+   
+   + **weather-client-copy**:
+     Flask, Vue.js, Chart.js
+     
    + **weather-server**:
      Flask-Cors, 
      Jinja2, 
@@ -57,7 +58,7 @@ Here is the overall picture
 
 # Purpose
 + **Type of Software Development Process**  
-      Agile software 
+      Agile Software 
 + **Reason**
 
  Agile methodologies offer several benefits that align well with the requirements and challenges of developing a weather forecast software.
