@@ -7,26 +7,10 @@ Here is the overall picture
 
 
 # Declaration:
- + **package/library**:
-   + **venv**:
-     Flask-Cors, 
-     Jinja2, 
-     MarkupSafe, 
-     Blinker, 
-     Certifi, 
-     Charset Normalizer, 
-     Click, 
-     Colorama, 
-     Flask, 
-     IDNA, 
-     Itsdangerous, 
-     pip, 
-     Requests, 
-     Urllib3, 
-     Werkzeug.
-   
+ + **Package/Library**:
+
    + **weather-client-copy**:
-     Flask, Vue.js, Chart.js
+     Vue.js, Chart.js
      
    + **weather-server**:
      Flask-Cors, 
@@ -53,7 +37,7 @@ Here is the overall picture
    vue.js,   
    flask
      
- + **usage of software**: This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
+ + **Usage of Software**: This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
     
 
 # Purpose
@@ -77,38 +61,66 @@ Here is the overall picture
   
 # Software Development plan
  ### Development Process/Status (sample only)
+ #### Phase 1: Project Initiation and Planning
+ ##### Requirement Gathering and Analysis:
+ - Meet with stakeholders to understand the project requirements and user needs.
+ - Document features and functionalities based on the provided description.
+ - Identify key components such as weather display, search functionality, unit switcher, real-time temperature changes, background image display, and outing tips.
+ 
+ ##### UI/UX Design Planning:
+ - Create wireframes and mockups to visualize the user interface and interactions.
+ - Design user flows for seamless navigation and user experience.
+ - Incorporate design elements for displaying weather information, map integration, and real-time updates.
+ 
+ #### Phase 2: Development Setup and Infrastructure
+ ##### Environment Setup:
+ - Set up development environments for both client-side (Vue.js) and server-side (Flask) development.
+ - Configure tools and dependencies including Vue.js, Flask, and necessary plugins.
+ 
+ ##### Backend Configuration:
+ - Develop Flask backend to handle API requests for weather data retrieval and other functionalities.
+ - Implement necessary routes and endpoints for data fetching and processing.
+ 
+ #### Phase 3: Client-side Development
+ ##### UI Component Implementation:
+ - Develop Vue.js components for weather display, search bar, unit switcher, real-time temperature changes, background image display, and outing tips.
+ - Implement responsive design for various screen sizes and devices.
+ 
+ ##### Integration with Weather API:
+ - Integrate with a weather API (e.g., OpenWeatherMap) to fetch weather data based on user input.
+ - Display temperature, weather conditions, wind speed, humidity, sunrise and sunset times, and other relevant information.
+ 
+ #### Phase 4: Server-side Development
+ ##### API Endpoint Development:
+ - Develop RESTful API endpoints using Flask for weather data retrieval and other functionalities.
+ - Implement error handling and validation for API requests.
+ 
+ #### Phase 5: Testing and Quality Assurance
+ ##### Unit Testing:
+ - Write unit tests for both client-side and server-side code to ensure functionality and reliability.
+ - Test API endpoints, UI components, and user interactions.
+ 
+ ##### Integration Testing:
+ - Perform integration tests to verify the interaction between frontend and backend systems.
+ - Test data retrieval and display accuracy.
+ 
+ #### Phase 6: Deployment and Launch
+ ##### Deployment Planning:
+ - Choose a suitable hosting provider for deploying the Weather App.
+ - Set up deployment pipelines and automate deployment processes using tools like Docker and CI/CD pipelines.
+ 
+ ##### Deployment Execution:
+ - Deploy the frontend (Vue.js) and backend (Flask) components to the selected hosting environment.
+ - Configure domain settings and SSL certificates for secure access.
+ - Perform final testing in the production environment to ensure everything is working as expected.
 
- ```mermaid
- gantt
-    title Weather App Development Process
-    dateFormat YYYY-MM-DD
-
-    section Project Initialization
-    ProjectInitialization : done, Project Initialization, 2024-02-01, 2024-02-07
-
-    section Research and Planning
-    ResearchAndPlanning : active, Research and Planning, 2024-02-08, 14d
-    RaP Progress: active, RaP Progress (50%), 2024-02-08, 7d
-
-    section Backend Development
-    BackendDevelopment : active, Backend Development, 2024-02-22, 21d
-    BeD Progress : active, BeD Progress (30%), 2024-02-22, 6d
-
-    section Frontend Development
-    FrontendDevelopment : active, Frontend Development, 2024-03-14, 21d
-    FeD Progress : active, FeD Progress (70%), 2024-03-14, 15d
-
-    section Integration and Testing
-    IntegrationAndTesting : active, Integration and Testing, 2024-04-04, 14d
-    IaT Progress : active, IaT Progress (20%), 2024-04-04, 3d
-
-    section Deployment and Launch
-    DeploymentAndLaunch : active, Deployment and Launch, 2024-04-18, 7d
-    DaL Progress : active, DaL Progress (40%), 2024-04-18, 3d
-
-    section Post-Launch Support (Ongoing)
-    PostLaunchSupport : active, Post-Launch Support, 2024-04-25, 365d
-```
+#### Phase 7: Post-Launch Support and Maintenance
+##### Monitoring and Performance Optimization:
+- Set up monitoring tools to track app performance, server health, and user interactions.
+- Monitor error logs and performance metrics to identify and resolve issues promptly.
+##### Continuous Improvement:
+- Gather user feedback and analytics data to identify areas for improvement.
+- Plan and prioritize future enhancements and feature updates based on user feedback and market trends
 ### Members
 1. Ray (P2111671) -- Backend development
 2. Angela (P2204782) -- Frontend development
@@ -117,14 +129,25 @@ Here is the overall picture
 5. William (P2204954) -- Documentation
       
  ### Schedule
- O(1) Constant Time Complexity
- - time taken to retrieve and display weather information is unlikely to scale with the size of the input data or the number of users
- - remains relatively constant regardless of factors such as the number of locations being queried or the volume of weather data being displayed.
+ #### Project Initiation and Planning:
+ - Duration: 2 weeks
+ #### Development Setup and Infrastructure:
+ - Duration: 1 week
+ #### Client-side Development:
+ - Duration: 4 weeks
+ #### Server-side Development:
+ - Duration: 2 weeks
+ #### Testing and Quality Assurance:
+ - Duration: 2 weeks
+ #### Deployment and Launch:
+ - Duration: 1 week
+ #### Post-Launch Support and Maintenance:
+ Ongoing
    
  ### Algorithm   
  
  ### Current status 
- + **descriptions**  
+ + **Descriptions**  
  When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view the advice for going out, you can also click the "Check Suitability" button. It will show what to do about the weather today and whether it is suitable to do some outdoor sports. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the sunrise and sunset of the location. Lastly, you can click the Detail row to reveal the temperature trend chart, which displays changes in temperature in real time.When you click a point on the axis, details of the temperature are displayed.
 
 + **Installations and configurations**  
