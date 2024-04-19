@@ -7,7 +7,45 @@ Here is the overall picture
 
 
 # Declaration:
- + **package**:
+ + **package/library**:
+   + **venv**:
+     Flask-Cors
+     Jinja2
+     MarkupSafe
+     Blinker
+     Certifi
+     Charset Normalizer
+     Click
+     Colorama
+     Flask
+     IDNA
+     Itsdangerous
+     pip
+     Requests
+     Urllib3
+     Werkzeug
+
+   + **weather-server**:
+     Flask-Cors
+     Jinja2
+     MarkupSafe
+     blinker
+     Certifi
+     Charset Normalizer
+     Click
+     Colorama
+     Flask
+     Flask-Cors
+     IDNA
+     Itsdangerous
+     pip
+     Requests
+     Urllib3
+     Werkzeug
+     Setuptools
+     Pkg Resources
+     Distutils Hack
+     
  + **Environment**:
    vue.js  
    flask  
