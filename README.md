@@ -25,6 +25,8 @@ Here is the overall picture
      Urllib3, 
      Werkzeug. 
 
++ **weather-client-copy**:
+  Vue.js, Chart.js
    + **weather-server**:
      Flask-Cors, 
      Jinja2, 
@@ -44,7 +46,7 @@ Here is the overall picture
      Werkzeug, 
      Setuptools, 
      Pkg Resources, 
-     Distutils Hack, 
+     Distutils Hack
      
  + **Environment**:
    vue.js,   
@@ -68,7 +70,7 @@ Here is the overall picture
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
   
 # Software Development plan
- ### Development Process (sample only)
+ ### Development Process/Status (sample only)
 
  ```mermaid
  gantt
@@ -96,15 +98,14 @@ Here is the overall picture
      section Post-Launch Support (Ongoing)
      Post-Launch Support     : 2024-06-24, 365d
 ```
- ### Member 
+ + **Members**
      Ray (P2111671)
      Angela (P2204782)
      Vikey (P2211317)
      Josh (P2204750)
      William (P2204954)
  ### Schedule
- ### Algorithm
- ### Current Status   
+ ### Algorithm   
 
  + **descriptions**  
  When you enter the site, the screen can automatically display the weather conditions for your location and a map as long as you authorize it .The site allows you to search for weather conditions by typing place names into the search box.To view the advice for going out, you can also click the "Check Suitability" button. It will show what to do about the weather today and whether it is suitable to do some outdoor sports. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the sunrise and sunset of the location. Lastly, you can click the Detail row to reveal the temperature trend chart, which displays changes in temperature in real time.When you click a point on the axis, details of the temperature are displayed.
