@@ -11,17 +11,21 @@ Here is the overall picture
    
      
    ## Environment:
-  + **language**
+### language
     vue.js, flask(Framework of python)
-  + **required package**
-   -For backend
-     '''
-      pip install flask  
-      pip install flask-cors        
-      pip install requests 
-     '''
+### required package 
++ **Back-end**  
+    Flask and related libraries：  
+        Flask is a micro-framework for building web applications.jsonify is a function provided by Flask for converting Python objects into JSON format.request is an object provided by Flask for handling HTTP requests.
+flask_cors is an extension for handling Cross-Origin Resource Sharing (CORS), which allows cross-origin requests in Flask applications.
+requests is a library for sending HTTP requests, used by the OpenWeatherMap API to send requests.  
 
-   - for frontend
+       pip install flask  
+       pip install flask-cors        
+       pip install requests
+      
+
++ **Front-end**  
      
 Written using Vue.js and Vuetify framework, so you need to install the corresponding dependency packages
    
@@ -39,7 +43,7 @@ Dependency packages for drawing charts
     npm install vue-chartjs
      
    
- + **Usage of Software**: This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
+
     
 
 # Purpose
@@ -60,6 +64,8 @@ Dependency packages for drawing charts
    Agile methodologies can provide a competitive advantage in terms of time-to-market. Weather forecast software developed using agile practices can be released in incremental stages, allowing users to benefit from early functionality while additional features are being developed. This can be particularly valuable in a field where accurate and up-to-date weather forecasts are critical for various industries and decision-making processes.
 
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
+  + **Usage of Software**:
+    This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
   
 # Software Development plan
  ### Development Process/Status (sample only)
