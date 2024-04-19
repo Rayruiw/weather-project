@@ -5,14 +5,10 @@ Here is the overall picture
 <img src="./weather-client-copy/src/assets/readmepicture/1.jpeg">  
 
 
-
-# Declaration:
- ## Package/Library:
-   
-     
-   ## Environment:
+# Environment:
 ### language
-    vue.js, flask(Framework of python)
+   vue.js  
+   flask(Framework of python)
 ### required package 
 + **Back-end**  
     Flask and related libraries：  
@@ -42,9 +38,6 @@ Dependency packages for drawing charts
     
     npm install vue-chartjs
      
-   
-
-    
 
 # Purpose
 ## Type of Software Development Process
