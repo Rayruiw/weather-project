@@ -53,7 +53,7 @@ Here is the overall picture
    vue.js,   
    flask
      
- + **usage of software**: This software aids in showcasing timely and accurate weather condition of a certain region / city accroding to the user's prompt. All the weather information are based on real time data such as temperature, humidity, visibility, etc. It also provides tips like the suitability of certain outdoor activities.
+ + **usage of software**: This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
     
 
 # Purpose
