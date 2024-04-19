@@ -7,36 +7,38 @@ Here is the overall picture
 
 
 # Declaration:
- + **Package/Library**:
+ ## Package/Library:
+   
+     
+   ## Environment:
+  + **language**
+    vue.js, flask(Framework of python)
+  + **required package**
+   -For backend
+     '''
+      pip install flask  
+      pip install flask-cors        
+      pip install requests 
+     '''
 
-   + **weather-client-copy**:
-     Vue.js, Chart.js
+   - for frontend
      
-   + **weather-server**:
-     Flask-Cors, 
-     Jinja2, 
-     MarkupSafe, 
-     blinker, 
-     Certifi, 
-     Charset Normalizer, 
-     Click, 
-     Colorama, 
-     Flask, 
-     Flask-Cors, 
-     IDNA, 
-     Itsdangerous, 
-     pip, 
-     Requests, 
-     Urllib3, 
-     Werkzeug, 
-     Setuptools, 
-     Pkg Resources, 
-     Distutils Hack
+Written using Vue.js and Vuetify framework, so you need to install the corresponding dependency packages
+   
+     npm install vue vuetify
+         
+Material Design icon dependency package
+
      
- + **Environment**:
-   vue.js,   
-   flask
+     npm install @mdi/font
      
+     
+Dependency packages for drawing charts
+
+    
+    npm install vue-chartjs
+     
+   
  + **Usage of Software**: This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
     
 
@@ -152,18 +154,13 @@ Here is the overall picture
 
 + **Installations and configurations**  
   Server-side:  
-     first you need to open virtual environment  
-          
-      pip install flask  
-      pip install flask-cors        
-      pip install requests  
+     first you need to open virtual environment
+   ```  
       flask run  
+    ```
     
   Client-side: 
-  ```
-     npm install  
-     npm install chart.js –save  
-     npm i @amap/amap-jsapi-loader --save    
+  ```   
      npm run serve
    ```  
 
