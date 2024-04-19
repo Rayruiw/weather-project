@@ -75,29 +75,29 @@ Here is the overall picture
 
  ```mermaid
  gantt
-     title Weather App Development Process
-     dateFormat  YYYY-MM-DD
+    title Weather App Development Process
+    dateFormat  YYYY-MM-DD
 
-     section Project Initialization
-     Project Initialization   : 2024-04-01, 7d
+    section Project Initialization
+    ProjectInitialization   : done, Project Initialization, 2024-02-01, 2024-02-07
 
-     section Research and Planning
-     Research and Planning    : 2024-04-08, 14d
+    section Research and Planning
+    ResearchAndPlanning      : active, Research and Planning, 2024-02-08, 14d
 
-     section Backend Development
-     Backend Development     : 2024-04-22, 21d
+    section Backend Development
+    BackendDevelopment       : active, Backend Development, 2024-02-22, 21d
 
-     section Frontend Development
-     Frontend Development    : 2024-05-13, 21d
+    section Frontend Development
+    FrontendDevelopment      : active, Frontend Development, 2024-03-14, 21d
 
-     section Integration and Testing
-     Integration and Testing : 2024-06-03, 14d
+    section Integration and Testing
+    IntegrationAndTesting    : active, Integration and Testing, 2024-04-04, 14d
 
-     section Deployment and Launch
-     Deployment and Launch   : 2024-06-17, 7d
+    section Deployment and Launch
+    DeploymentAndLaunch      : active, Deployment and Launch, 2024-04-18, 7d
 
-     section Post-Launch Support (Ongoing)
-     Post-Launch Support     : 2024-06-24, 365d
+    section Post-Launch Support (Ongoing)
+    PostLaunchSupport        : active, Post-Launch Support, 2024-04-25, 365d
 ```
 ### Members
 1. Ray (P2111671)
