@@ -76,28 +76,33 @@ Here is the overall picture
  ```mermaid
  gantt
     title Weather App Development Process
-    dateFormat  YYYY-MM-DD
+    dateFormat YYYY-MM-DD
 
     section Project Initialization
-    ProjectInitialization   : done, Project Initialization, 2024-02-01, 2024-02-07
+    ProjectInitialization : done, Project Initialization, 2024-02-01, 2024-02-07
 
     section Research and Planning
-    ResearchAndPlanning      : active, Research and Planning, 2024-02-08, 14d
+    ResearchAndPlanning : active, Research and Planning, 2024-02-08, 14d
+    RaP Progress: active, RaP Progress (50%), 2024-02-08, 7d
 
     section Backend Development
-    BackendDevelopment       : active, Backend Development, 2024-02-22, 21d
+    BackendDevelopment : active, Backend Development, 2024-02-22, 21d
+    BeD Progress : active, BeD Progress (30%), 2024-02-22, 6d
 
     section Frontend Development
-    FrontendDevelopment      : active, Frontend Development, 2024-03-14, 21d
+    FrontendDevelopment : active, Frontend Development, 2024-03-14, 21d
+    FeD Progress : active, FeD Progress (70%), 2024-03-14, 15d
 
     section Integration and Testing
-    IntegrationAndTesting    : active, Integration and Testing, 2024-04-04, 14d
+    IntegrationAndTesting : active, Integration and Testing, 2024-04-04, 14d
+    IaT Progress : active, IaT Progress (20%), 2024-04-04, 3d
 
     section Deployment and Launch
-    DeploymentAndLaunch      : active, Deployment and Launch, 2024-04-18, 7d
+    DeploymentAndLaunch : active, Deployment and Launch, 2024-04-18, 7d
+    DaL Progress : active, DaL Progress (40%), 2024-04-18, 3d
 
     section Post-Launch Support (Ongoing)
-    PostLaunchSupport        : active, Post-Launch Support, 2024-04-25, 365d
+    PostLaunchSupport : active, Post-Launch Support, 2024-04-25, 365d
 ```
 ### Members
 1. Ray (P2111671)
