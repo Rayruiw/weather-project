@@ -107,6 +107,10 @@ Here is the overall picture
 5. William (P2204954)
       
  ### Schedule
+ O(1) Constant Time Complexity
+ - time taken to retrieve and display weather information is unlikely to scale with the size of the input data or the number of users
+ - remains relatively constant regardless of factors such as the number of locations being queried or the volume of weather data being displayed.
+   
  ### Algorithm   
 
  + **descriptions**  
