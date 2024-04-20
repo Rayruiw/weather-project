@@ -59,7 +59,7 @@ Dependency packages for drawing charts
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
 
 ## Usage of Software:  
-    This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
+ This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
   
 # Software Development plan
  ### Development Process/Status (sample only)
@@ -150,7 +150,7 @@ Dependency packages for drawing charts
  
  ### Current status 
  + **Descriptions**    
-    When you enter the site ，the screen can automatically display weather conditions such as temperature, wind speed, humidity, sunrise, and a map of your location as long as you authorize it.And the site allows you to search for weather conditions by typing place names into the search box. To view the advice for going out, you can also click the "Check Suitability" button. It will show what to do about the weather today and whether it is suitable to do some outdoor sports. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the sunrise and sunset of the location. Lastly, you can click the Detail row to reveal the temperature trend chart, which displays changes in temperature in real time. When you click a point on the axis, details of the temperature are displayed.
+ When you enter the site ，the screen can automatically display weather conditions such as temperature, wind speed, humidity, sunrise, and a map of your location as long as you authorize it.And the site allows you to search for weather conditions by typing place names into the search box. To view the advice for going out, you can also click the "Check Suitability" button. It will show what to do about the weather today and whether it is suitable to do some outdoor sports. Additionally, you can click on the temperature unit to implement different units of temperature switch. Furthermore, different background images can be displayed depending on the sunrise and sunset of the location. Lastly, you can click the Detail row to reveal the temperature trend chart, which displays changes in temperature in real time. When you click a point on the axis, details of the temperature are displayed.
 
  
 + **use1**
