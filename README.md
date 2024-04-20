@@ -176,11 +176,9 @@ Overall, the target market for the weather app is individuals and small-scale bu
  Ongoing
    
  ### Algorithm   
-  1. User input - The software receives the user input, which is the location.
-  2. Data retrieval - The software queries an API to obtain real time weather data of the input location (temperature, humidity, visibility, etc.)
-  3. Data processing - Necessary convertions of the data (converting temperature from Celsius to Fahrenheit according to user's desire) 
-  4. Data presentation - All the data is presented to the user, generating a chart and a map. Tips for going out is shown as suggestions of the suitability of some outdoor activities such as travelling, jogging and hiking.
-  5. Updates - Regularly fetch real time data feeds to the software, allowing periodically updates to provide the most current weather condition to the user.
+  1. Location-based weather data retrieval scheduling: Real time weather data are searched and retrieved based on the specific city name the user has inputted. this algorithm ensures that weather data for different cities or user's location is regularly fetched in order to show the most current weather condition, keeping the information up to date.
+   
+  2. Auto authorization scheduling: The software obtains the authorization to retrieve weather data of the user's current location, displaying all the weather information without manual intervention.
 
  
  ### Current status 
