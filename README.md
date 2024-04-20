@@ -176,6 +176,9 @@ Overall, the target market for the weather app is individuals and small-scale bu
  Ongoing
    
  ### Algorithm   
+  1. User input - The software receives the user input, which is the desire location.
+  2. Data retrieval - The software queries an API to obtain real time weather data (temperature, humidity, visibility, etc.)
+  3. Data presentation - All the data is presented to the user, generating a chart and a map. Tips for going out is shown as suggestions of the suitability of some outdoor activities such as travelling, jogging and hiking.
  
  ### Current status 
  + **Descriptions**    
