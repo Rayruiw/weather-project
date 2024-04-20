@@ -41,7 +41,7 @@ Dependency packages for drawing charts
 
 # Purpose
 ## Type of Software Development Process
-      Agile Software 
+Agile Software 
 ## Reason
 
  Agile methodologies offer several benefits that align well with the requirements and challenges of developing a weather forecast software.
