@@ -176,13 +176,13 @@ Overall, the target market for the weather app is individuals and small-scale bu
  Ongoing
    
  ### Algorithm   
-  1. Location-based weather data retrieval: Real time weather data are searched and retrieved based on the specific city name the user has inputted. this algorithm regularly fetch data from the API in order to show the most current weather condition, keeping the information up to date. The weather API returns a response containing data such as temperature, sunrise and sunset times, and other relevant parameters.
+  1. Location-based weather data retrieval: Real time weather data are searched and retrieved based on the specific city name the user has inputted. This algorithm regularly fetch data from the API in order to show the most current weather condition, keeping the information up to date. The weather API returns a response containing data such as temperature, sunrise and sunset times, and other relevant parameters.
 
   2. Data processing and analysis: Retrieved raw data is processed, analyzed and extracted. This may involve calculating statistical metrics and other data processing tasks. Option such as unit converting is available, user can switch between different temperature units (Celsius / Fahrenheit) to accommodate their needs.
    
   3. Auto authorization: The software obtains the authorization to retrieve weather data of the user's current location, displaying all the weather information without manual intervention.
 
-  4. Data visualization and presentation: The weather information is formatted and presented to the user in a user-friendly manner. This could include graphical representations such as charts and maps, and textural descriptions as well as displaying the weather details (temperature, humidity, visibility, etc.) The software may use predefined sets of images corresponding to different weather conditions (clear sky, cloudy, rainy, etc.) and times of day (morning / night).  
+  4. Data visualization and presentation: The weather information is formatted and presented to the user in a user-friendly manner. This could include graphical representations such as charts, maps, and textural descriptions as well as displaying the weather details (temperature, humidity, visibility, etc.) The software may use predefined sets of images corresponding to different weather conditions (clear sky, cloudy, rainy, etc.) and times of day (morning / night).  
 
   5. Outing tips: Users can check the suitability of certain outdoor activities by clicking the "CHECK SUITABILITY" button. The software then determine whether it is suitable for these outdoor activities based on the current weather condition. The software may have predefined thresholds or rules for determining the suitability based on the different weather parameters.
 
