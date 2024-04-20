@@ -176,9 +176,9 @@ Overall, the target market for the weather app is individuals and small-scale bu
  Ongoing
    
  ### Algorithm   
-  1. Location-based weather data retrieval scheduling: Real time weather data are searched and retrieved based on the specific city name the user has inputted. this algorithm ensures that weather data for different cities or user's location is regularly fetched in order to show the most current weather condition, keeping the information up to date.
+  1. Location-based weather data retrieval: Real time weather data are searched and retrieved based on the specific city name the user has inputted. this algorithm ensures that weather data for different cities or user's location is regularly fetched in order to show the most current weather condition, keeping the information up to date.
    
-  2. Auto authorization scheduling: The software obtains the authorization to retrieve weather data of the user's current location, displaying all the weather information without manual intervention.
+  2. Auto authorization: The software obtains the authorization to retrieve weather data of the user's current location, displaying all the weather information without manual intervention.
 
  
  ### Current status 
