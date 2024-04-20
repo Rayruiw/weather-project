@@ -154,7 +154,7 @@ Overall, the target market for the weather app is individuals and small-scale bu
 - Plan and prioritize future enhancements and feature updates based on user feedback and market trends
 ### Members
 1. Ray (P2111671) -- [21.30] Frontend: JavaScript,SvgWeatherIcon and MapContainer of vue.js; ReadMe: Overall, Environment, Current status
-2. Angela (P2204782) -- [21.10] Frontend: vue, css 
+2. Angela (P2204782) -- [21.10] Frontend: vue, css, configuration files; ReadMe: Software development process and the reason; Video: entire editing
 3. Vikey (P2211317) -- [20.50] Backend: server side; Frontend: inserted resource files into src/assets directory; ReadMe: Future plan
 4. Josh (P2204750) -- [18.70] ReadMe: Development process, time schedule, Usage of software; Checking of the codes
 5. William (P2204954) -- [18.40] ReadMe: Usage of software, Members, Algorithm; Checking of the codes
