@@ -176,6 +176,7 @@ Overall, the target market for the weather app is individuals and small-scale bu
  Ongoing
    
  ### Algorithm   
+ <img src="./weather-client-copy/src/assets/readmepicture/algorithm.jpg">
   1. Data retrieval algorithm: Real time weather data are searched and retrieved based on the specific city name the user has inputted. This algorithm fetches weather data from the API. This may involve algorithms for network communication and data retrieval, such as making HTTP requests to the API and handling the returned data. These data are regularly fetched in order to show the most current weather condition, keeping the information up to date. The weather API returns a response containing data such as temperature, humidity, and other relevant parameters.
 
   3. Data parsing algorithm: Used to parse the data returned by the API. Weather data is usually returned in a specific format, such as JSON or XML. The data parsing algorithm extracts the required weather information and converts it into a data structure usable by the application.
