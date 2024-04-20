@@ -211,7 +211,7 @@ You can also click the "check suitability" button to view outing tips, which wil
 ### Future plan
  Here are some ideas for the future plan of software 
 1. User Personalization Settings: In addition to the default display of weather units and interface themes, the personalization settings can be further expanded. For example, allowing users to select the weather metrics they want to focus on, such as precipitation, wind speed, humidity, etc., and highlighting them in the forecast results. Furthermore, implementing the ability to save and remove favorite cities means that users can add their most loved or frequently monitored cities to a favorites list for quick access to the weather forecasts of those cities. Users can add cities to their favorites by clicking on a 'Favorite' button on the search results or specific city's weather page.
-2. Add map function：
+2.  Enhanced map function：
 
    (1) Adding Distance and Transportation Mode Feature:Enhance the practicality of the software by utilizing the location information and user's search data. Display the distance between two locations in the weather forecast results and provide options for different transportation modes such as walking, driving, and public transportation.
 
