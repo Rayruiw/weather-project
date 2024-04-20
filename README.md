@@ -91,7 +91,7 @@ Dependency packages for drawing charts
 Overall, the target market for the weather app is individuals and small-scale businesses who require quick and easy access to weather information for their daily activities and planning purposes. The app caters to a broad range of users with varying needs related to weather forecasting and outdoor planning.
   
 # Software Development plan
- ### Development Process/Status (sample only)
+ ### Development Process
  #### Phase 1: Project Initiation and Planning
  ##### Requirement Gathering and Analysis:
  - Meet with stakeholders to understand the project requirements and user needs.
