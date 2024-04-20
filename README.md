@@ -59,7 +59,36 @@ Dependency packages for drawing charts
  In summary, adopting agile software development for a weather forecast software offers flexibility, adaptability, and rapid feedback loops. These benefits enable the software to evolve, incorporate new data sources, and provide accurate and timely predictions, ultimately enhancing the user experience and supporting informed decision-making in various sectors reliant on weather forecasts.
 
 ## Usage of Software:  
- This software could be used in climate analysis, which allows tracking and monitoring severe weather conditions. Some potential target markets would be meteorological and weather forcasting organizations as well as the aviation industry. Both markets require timely and accurate weather data to analyze and generate forcasts, or even addressing alerts and warnings. This is vital especially in the aviation industry because airliners rely heavily on these data in order to maintain an efficient and safe flight.
+### Individual Users:
+
+- Everyday users who want to quickly check the current weather conditions, temperature, wind speed, humidity, sunrise and sunset times, and real-time temperature changes in their location or any other city.
+
+- Users who enjoy outdoor activities and want to know if the weather is suitable for traveling, jogging, or other outdoor sports.
+
+- Users who prefer to view weather information in different temperature units (e.g., Celsius, Fahrenheit) and switch between them as needed.
+
+- Users who want to see visually appealing background images that change based on the time of day (morning, night) in a particular location.
+
+### Travelers and Tourists:
+
+- Travelers planning their trips who need to check the weather forecast for their destination city or cities along their route.
+- Tourists exploring new cities who want to quickly find out the weather conditions and decide on their activities for the day.
+
+### Outdoor Enthusiasts:
+- Outdoor enthusiasts such as hikers, cyclists, and runners who rely on accurate weather information to plan their outdoor adventures.
+
+- Individuals who enjoy outdoor events and want to ensure the weather is suitable before attending.
+
+### Students and Professionals:
+- Students and professionals who may need weather information for academic or work-related purposes, such as research, presentations, or planning outdoor events.
+
+### Local Businesses:
+
+- Local businesses in the hospitality industry, such as restaurants, cafes, and hotels, who can use the app to provide weather-related recommendations to their customers.
+
+- Businesses hosting outdoor events or activities who want to ensure the weather conditions are favorable for their planned activities.
+
+Overall, the target market for the weather app is individuals and small-scale businesses who require quick and easy access to weather information for their daily activities and planning purposes. The app caters to a broad range of users with varying needs related to weather forecasting and outdoor planning.
   
 # Software Development plan
  ### Development Process/Status (sample only)
