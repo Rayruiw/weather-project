@@ -224,7 +224,7 @@ You can also click the "check suitability" button to view outing tips, which wil
 4. Weather Alerts and Push Notifications: Allow users to set weather alerts and push notifications to receive alerts or reminders for specific weather conditions. For example, when weather conditions are not suitable for outdoor activities or when there are extreme weather warnings, users can receive instant notifications to take appropriate actions.
 
 # URL
-
+https://youtu.be/ZBw-Dhkj1RE?si=DvBc6KbEwfxUKmNy
 
 
   
